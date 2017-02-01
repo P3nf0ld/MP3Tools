@@ -1,4 +1,4 @@
-﻿<#
+<#
 
     Author: Pen Warner
     Version: 1.0
@@ -7,9 +7,6 @@
     Purpose: Batch convert .wav files to .mp3, edit mp3 tags
 
 #>
-Import-Module -Name MsOnline
-Import-Module -Name Microsoft.Online.SharePoint.PowerShell -DisableNameChecking
-
 
 $MaxThreads = 5
  
